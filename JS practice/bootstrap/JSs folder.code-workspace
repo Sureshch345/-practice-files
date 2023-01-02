@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../suresh fs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JSs folder"
+	}
+}

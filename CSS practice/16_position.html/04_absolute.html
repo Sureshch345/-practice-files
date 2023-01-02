@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        div{
+            position: static;
+            left: 500px;  
+            border: 5px solid green;
+
+        }
+        .pos_relative{
+            position: relative;
+            left: 50px;
+            top: 100px;
+            border: 10px double red;
+        }
+        .pos_fixed{
+            position: fixed;
+            left: 30%;
+            /*
+            right: 50%;
+            */
+            bottom: 100px;
+            width: 800px;
+            border: 10px outset olive;
+        }
+        .pos_absolute{
+            position: absolute;
+            left: 70%;
+            bottom: 80px;
+            width: 200px;
+            border: 10px dotted yellowgreen;
+        }
+        
+    </style>
+    <title>static positioning</title>
+</head>
+<body>
+    <h2>here various models of positions in css</h2>
+    <div>
+        <h3>division 1</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, similique!</p>
+    </div>
+    <div class="pos_relative">
+        <h2>division 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, cum?</p>
+    </div>
+    <div class="pos_fixed">
+        <h3>division3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nostrum.</p>
+    </div>
+    <div class="pos_absolute">
+        <h3>division4</h3>
+        <p>Lorem ipsum dolor sit</p>    
+    </div>
+    
+</body>
+</html>

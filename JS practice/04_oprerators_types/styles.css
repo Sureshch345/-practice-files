@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10;
+    padding: 10px;
+}
+
+nav{
+    font-size:xx-large ;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    background-color: brown;
+}
